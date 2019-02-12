@@ -75,7 +75,7 @@ for i in range(len(data_set)):
 centroids = kmeans(data_set, 6, 100)
 print(centroids)
 
-colors = ['red', 'blue', 'green', 'yellow', 'purple', 'orange','cyan','magenta']
+colors = ['red', 'blue', 'yellow', 'orange','cyan','magenta', 'green', 'purple']
 
 
 for j in range(len(data_set)):
